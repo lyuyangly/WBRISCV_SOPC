@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/lyuyang/ProJect/RISCV_SOPC/syn/RISCV_SOPC_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="RISCV_SOPC_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/RISCV_SOPC_TB/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/led" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/uart_rxd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">uart_rxd</obj_property>
+      <obj_property name="ObjectShortName">uart_rxd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/uart_txd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">uart_txd</obj_property>
+      <obj_property name="ObjectShortName">uart_txd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_PICORV32/wbm_cyc_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wbm_cyc_o</obj_property>
+      <obj_property name="ObjectShortName">wbm_cyc_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_PICORV32/wbm_stb_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wbm_stb_o</obj_property>
+      <obj_property name="ObjectShortName">wbm_stb_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_PICORV32/wbm_ack_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wbm_ack_i</obj_property>
+      <obj_property name="ObjectShortName">wbm_ack_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_PICORV32/wbm_we_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wbm_we_o</obj_property>
+      <obj_property name="ObjectShortName">wbm_we_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_PICORV32/wbm_sel_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wbm_sel_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wbm_sel_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_PICORV32/wbm_adr_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wbm_adr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbm_adr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_PICORV32/wbm_dat_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wbm_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbm_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_PICORV32/wbm_dat_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wbm_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbm_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_WB_RAM/wb_cyc_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_cyc_i</obj_property>
+      <obj_property name="ObjectShortName">wb_cyc_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_WB_RAM/wb_stb_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_stb_i</obj_property>
+      <obj_property name="ObjectShortName">wb_stb_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_WB_RAM/wb_ack_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_ack_o</obj_property>
+      <obj_property name="ObjectShortName">wb_ack_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_WB_RAM/wb_we_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_we_i</obj_property>
+      <obj_property name="ObjectShortName">wb_we_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_WB_RAM/wb_sel_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_sel_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_sel_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_WB_RAM/wb_adr_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_adr_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_adr_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_WB_RAM/wb_dat_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_WB_RAM/wb_dat_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_UART/wb_cyc_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_cyc_i</obj_property>
+      <obj_property name="ObjectShortName">wb_cyc_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_UART/wb_stb_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_stb_i</obj_property>
+      <obj_property name="ObjectShortName">wb_stb_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_UART/wb_ack_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_ack_o</obj_property>
+      <obj_property name="ObjectShortName">wb_ack_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_UART/wb_we_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_we_i</obj_property>
+      <obj_property name="ObjectShortName">wb_we_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_UART/wb_sel_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_sel_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_sel_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_UART/wb_adr_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_adr_i[2:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_adr_i[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_UART/wb_dat_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_dat_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_SOPC_TB/U_DUT/U_UART/wb_dat_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_dat_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_o[7:0]</obj_property>
+   </wvobject>
+</wave_config>
