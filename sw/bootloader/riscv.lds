@@ -44,24 +44,16 @@ SECTIONS
         __sdata_end = .;
     } > RAM
 
-    .sbss : ALIGN(4)
-    {
-        __sbss_start = .;
-        *(.sbss*)
-        *(.scommon)
-        . = ALIGN(4);
-        __sbss_end = .;
-    } > RAM
-
     .bss : ALIGN(4)
     {
         __bss_begin = .;
+        *(.sbss*)
+        *(.scommon)
         *(.bss*)
         *(COMMON)
         . = ALIGN(4);
         __bss_end = .;
     } > RAM
-    __bss_size = __bss_end - __bss_begin;
     _end = .;
 
     .stack : ALIGN(4)
