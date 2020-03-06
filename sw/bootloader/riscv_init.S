@@ -133,10 +133,10 @@ clear_bss:
     la t1, __bss_end
     li t2, 0x00000000
 
-clear_sbss_loop:
+clear_bss_loop:
     sw      t2, (t0)
     addi    t0, t0, 4
-    blt     t0, t1, clear_sbss_loop
+    blt     t0, t1, clear_bss_loop
 
 jump_to_main:
     j main
